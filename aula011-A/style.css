@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* 
+  Variáveis para cores:
+  --fundo-principal
+  --texto
+  --texto-inverso
+  --destaque
+  --destaque-inverso
+  --fundo-card
+*/
+
+:root {
+  --fundo-principal: #baebc8;
+  --texto: #222222;
+  --texto-inverso:#9c8383;
+  --destaque: #5184be;
+  --destaque-inverso: #66bbff;
+  --fundo-card: #ffffff;
+}
+
+body {
+    background-color: var(--fundo-principal);
+}
+
+header {
+    background-color: var(--destaque);
+    padding: 25px;
+    text-align: center;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+
+h1 {
+    background-color: var(--texto-inverso);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+main {
+    background-color: var(--destaque);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+section {
+    background-color: var(--fundo-card);
+    font-size: 2em;
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+section.resposta {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+

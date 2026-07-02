@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>Detran</header>
+
+    <h1>Verificação de velocidade</h1>
+
+    <main>
+        <p>
+            Neste bloco você digite a velocidade dentro da caixa de texto para saber se foi ou não multado.
+            Se sim será notificado, se não recebera uma mensagem. 
+        </p>
+        Velocidade do carro: <input type="number" name="txtval" id="txtval"> km/h
+        <input type="button" value="verificar" id="btnVerificar">
+    </main>
+
+    <section id="resposta">
+        <div id="res"></div>
+    </section>
+    <script src="script.js"></script>
+
+    <script>
+        // Esta linha faz o botão funcionar conectando com a função calcular
+        document.getElementById('btnVerificar').addEventListener('click', calcular);
+    </script>
+    
+</body>
+</html>
