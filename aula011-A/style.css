@@ -27,7 +27,7 @@ header {
     background-color: var(--destaque);
     padding: 25px;
     text-align: center;
-    font-size: 4em;
+    font-size: 6em;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
 }
@@ -40,8 +40,33 @@ h1 {
 
 main {
     background-color: var(--destaque);
+    font-size: 2em;
     padding: 30px;
     border-radius: 20px;
+}
+
+input[type="number"] {
+  width: 200px;           /* Largura do box */
+  height: 50px;           /* Altura do box */
+  padding: 10px 20px;     /* Espaçamento interno */
+  font-size: 30px;        /* Tamanho do texto */
+  box-sizing: border-box; /* Garante que padding e bordas não alterem a largura total definida */
+  border-radius: 8px;     /* Bordas arredondadas */
+}
+
+input[type="button"] {
+  width: 100px;           /* Largura do box */
+  height: 50px;           /* Altura do box */
+  padding: 10px 20px;     /* Espaçamento interno */
+  font-size: 16px;        /* Tamanho do texto */
+  box-sizing: border-box; /* Garante que padding e bordas não alterem a largura total definida */
+  border-radius: 8px;     /* Bordas arredondadas */
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 section {

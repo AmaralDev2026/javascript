@@ -12,6 +12,11 @@ function calcular() {
     }
     
     else {
-        res.innerHTML += `<p style="color: green;">Dirija com segurança</p>`
+        res.innerHTML += `<p style="color: green;">Dirija com atenção, use cinto de segurança</p>`
     }
+}
+
+function limparCampo() {
+  // Busca o input pelo ID e esvazia o valor dele
+  document.getElementById('txtval').value = '';
 }
