@@ -47,8 +47,8 @@ main {
 }
 
 input[type="number"] {
-  width: 200px;           /* Largura do box */
-  height: 50px;           /* Altura do box */
+  width: 100px;           /* Largura do box */
+  height: 40px;           /* Altura do box */
   padding: 10px 20px;     /* Espaçamento interno */
   font-size: 30px;        /* Tamanho do texto */
   box-sizing: border-box; /* Garante que padding e bordas não alterem a largura total definida */
@@ -56,8 +56,9 @@ input[type="number"] {
 }
 
 input[type="button"] {
-  width: 100px;           /* Largura do box */
-  height: 50px;           /* Altura do box */
+  text-align: center;
+  width: 90px;           /* Largura do box */
+  height: 40px;           /* Altura do box */
   padding: 10px 20px;     /* Espaçamento interno */
   font-size: 16px;        /* Tamanho do texto */
   box-sizing: border-box; /* Garante que padding e bordas não alterem a largura total definida */
