@@ -34,6 +34,7 @@ header {
 
 h1 {
     background-color: var(--texto-inverso);
+    text-align: center;
     padding: 20px;
     border-radius: 15px;
 }
