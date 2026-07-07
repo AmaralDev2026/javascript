@@ -8,15 +8,15 @@ function carregar() {
     if (hora >= 0 && hora < 12) {
         //BOM DIA!
         img.src = 'manha.png'
-        document.body.style.background = '#FFEEAC'
+        document.body.style.background = '#898f7baf'
     }else if (hora >= 12 && hora <= 18) {
         //BOA TARDE!
         img.src = 'tarde.png'
-        document.body.style.background = '#fcf191'
+        document.body.style.background = '#d3c869'
     }else {
         //BOA NOITE!
         img.src = 'noite.png'
-        document.body.style.background = '#CCC4CC'
+        document.body.style.background = '#0c0a0c'
     }
 }
 

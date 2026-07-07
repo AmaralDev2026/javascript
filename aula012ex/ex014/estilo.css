@@ -19,6 +19,23 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
+div { /* centralizando texto e imagem na div */
+    text-align: center;
+    padding: 10px;
+}
+/* Centraliza as duas divs na tela e coloca uma embaixo da outra 
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px; 
+}
+ 
+#foto {
+    display: flex;
+    justify-content: center;
+}*/
 footer {
      color: red;
      text-align: center;
