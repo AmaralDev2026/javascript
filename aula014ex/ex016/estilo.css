@@ -19,9 +19,13 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
+#dados input[type="submit"] {
+    margin-left: 100px; 
+}
+
 footer {
-     background-color: green;
-     color: white;
+    font-size: 2em;
+     color: black;
      text-align: center;
      font-style: italic;
 }                                                                                                                                                                                                                                      
