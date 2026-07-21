@@ -19,9 +19,13 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
+select#flista {
+    width: 150px;
+}
+
 footer {
-     background-color: green;
-     color: white;
+     color: black;
+     font-size: 2em;
      text-align: center;
      font-style: italic;
 }                                                                                                                                                                                                                                      
