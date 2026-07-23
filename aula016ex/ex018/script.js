@@ -58,6 +58,13 @@ function finalizar() {
         res.innerHTML += `<p>A média dos valores digitados é ${media}.</p>`
     }
 }
+
+function limpar() {
+    valores = [] // Zera o vetor
+    lista.innerHTML = '' // Limpa o elemento select na tela
+    res.innerHTML = '' // Limpa a div de resultados
+}
+
 /* 
 Estas funções foram criadas por motivos de validação de dados para um projeto clássico de Analisador de Números (geralmente visto no curso de JavaScript do professor Gustavo Guanabara no Curso em Vídeo). 
 
